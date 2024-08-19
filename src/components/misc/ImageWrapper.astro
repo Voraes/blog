@@ -23,7 +23,6 @@ const isLocal = !(
 const isPublic = src.startsWith('/')
 
 // TODO temporary workaround for images dynamic import
-// https://github.com/withastro/astro/issues/3373
 let img
 if (isLocal) {
   const files = import.meta.glob<ImageMetadata>('../../**', {
@@ -32,8 +31,9 @@ if (isLocal) {
   let normalizedPath = path
     .normalize(path.join('../../', basePath, src))
     .replace(/\\/g, '/')
-  img = await files[normalizedPath]()
-  if (!img) {
+    if (files[normalizedPath]) {
+    img = await files[normalizedPath]()
+  } else {
     console.error(`No image found for path ${normalizedPath}`)
   }
 }
