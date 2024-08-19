@@ -31,7 +31,6 @@ let { title, banner, description } = Astro.props
 const isHomePage = pathsEqual(Astro.url.pathname, url('/'))
 
 // defines global css variables
-// why doing this in Layout instead of GlobalStyles: https://github.com/withastro/astro/issues/6728#issuecomment-1502203757
 const configHue = siteConfig.themeColor.hue
 if (!banner || typeof banner !== 'string' || banner.trim() === '') {
   banner = siteConfig.banner.src
@@ -176,7 +175,6 @@ import {pathsEqual, url} from "../utils/url-utils";
 // })();
 
 /* TODO This is a temporary solution for style flicker issue when the transition is activated */
-/* issue link: https://github.com/withastro/astro/issues/8711, the solution get from here too */
 /* update: fixed in Astro 3.2.4 */
 /*
 function disableAnimation() {
