@@ -80,6 +80,6 @@ export const profileConfig: ProfileConfig = {
 
 export const licenseConfig: LicenseConfig = {
   enable: true,
-  name: 'MIT',
-  url: 'https://choosealicense.com/licenses/mit/',
+  name: 'CC BY-NC-ND',
+  url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
 };
