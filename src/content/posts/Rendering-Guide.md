@@ -8,8 +8,6 @@ category: 'Web-Dev'
 draft: false 
 ---
 
-# The Rendering Guide: Choosing the Best Way to Render Your Web App
-
 When it comes to building a web app, one of the most important decisions you'll make is how to render your content. But, let's be real, rendering can be a total mystery, especially for newbies. In this article, we'll break down the different rendering methods and help you decide which one is right for your project. Shall we?
 
 > The most popular approaches are: SSR, CSR and SSG. So, let's see them first:
