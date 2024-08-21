@@ -77,7 +77,7 @@ Island Rendering, which can be called "Component Islands" too, involves renderin
 
 So the so called "islands" are independent of each other so to speak, and when the view(screen) of the users need to "see" one of the "islands", them, it gets rendered.
 
-More technically speaking, the "islands" have placeholders that contain the server side rendered HTML. Them, when the client needs to show them to the users, they get "hydrated" on the client. A way of understanding is of containers in a web app 
+The "islands" have placeholders that contain the server side rendered HTML. Them, when the client needs to show them to the users, they get "hydrated" on the client. A way of understanding is of containers in a web app 
 
 ![Island Rendering](https://res.cloudinary.com/wedding-website/image/upload/v1596766231/islands-architecture-1.png)
 
