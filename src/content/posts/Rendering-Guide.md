@@ -107,8 +107,8 @@ Pros:
 
 Cons:
 
-- ** Limited dynamic content**: ISR is limited to generating static content, which means that dynamic content or real-time updates are not possible.
-- ** Complexity**: ISR requires careful planning and setup, as changes to the content or layout can be difficult to implement.
+- **Limited dynamic content**: ISR is limited to generating static content, which means that dynamic content or real-time updates are not possible.
+- **Complexity**: ISR requires careful planning and setup, as changes to the content or layout can be difficult to implement.
 
 > - *Use Cases:* Applications that require a balance between server side rendering and client side rendering, with the need for some dynamic content and real-time updates.
 > - *Examples:* News sites, blogs, [Vercel](https://vercel.com/), and e-commerce websites that require some dynamic content and real-time updates, but also want to take advantage of server-side rendering and caching for improved performance and SEO.
