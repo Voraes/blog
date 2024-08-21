@@ -1,5 +1,5 @@
 ---
-title: Rendering Guide: Choosing the Best Way to Render Your Web App
+title: Rendering Guide - Choosing the Best Way to Render Your Web App
 published: 2024-08-21
 description: `In this article, we'll break down the different rendering methods and help you decide which one is right for your project.`
 image: ''
